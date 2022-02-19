@@ -7,6 +7,7 @@ from std_msgs.msg     import Bool
 
 class GroundStation:
 
+
     def __init__(self):
 
         rospy.init_node("ground_station")
@@ -14,6 +15,7 @@ class GroundStation:
         self.pub2datahub = rospy.Publisher("mission_msgs", String, queue_size=1)
         self.input_avaliable = True
         self.gs_rate = rospy.Rate(10)
+
 
 
     def user_input(self):
