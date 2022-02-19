@@ -1,6 +1,6 @@
 import rospy
 import asyncio
-from lib.fsm            import FSM
+from fsm            import FSM
 from drone_system.msg   import Status
 from std_msgs.msg       import String
 from std_msgs.msg       import Bool
