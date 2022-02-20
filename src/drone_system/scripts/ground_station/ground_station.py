@@ -33,7 +33,9 @@ class GroundStation:
 
     def input_handler(self, permission):
 
-        print("permission recieved")
+        # permission will be sended from motion_controller 
+        # when the mission recieved is done 
+        # print("permission recieved")
         self.input_avaliable = permission
 
 
